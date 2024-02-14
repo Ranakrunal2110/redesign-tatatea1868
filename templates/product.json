@@ -1,0 +1,515 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_J9R9TT": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "meta_eGHPck": {
+          "type": "meta",
+          "disabled": true,
+          "settings": {
+            "show_collections": false,
+            "show_vendor": true,
+            "show_type": false,
+            "show_availability": false,
+            "show_sku": false
+          }
+        },
+        "short_description_EfhNJA": {
+          "type": "short_description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "custom_liquid_yQREHR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-info__badge-list\">{{ product.metafields.custom.tea_information | metafield_tag  }}<\/div>"
+          }
+        },
+        "custom_liquid_hBqD8k": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"main-benifits\">\n    <p>Benefits<\/p>\n    <div class=\"benifits-inner\">\n        <div>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/Anti-inflammatory_properties.svg?v=1701681644\">\n            <p>Provides great Taste<\/p>\n        <\/div>\n        <div>   \n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/supports_skin_health.svg?v=1701681645\">\n            <p>Provides Refreshment<\/p>\n        <\/div>\n        <div>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/provides_a_unique_flavor.svg?v=1701681645\">\n            <p>Provides a unique flavor<\/p>\n        <\/div>\n    <\/div>\n<\/div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_Y8UjDt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"main-payment_method\">\n<p>Payment Methods<\/p> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/payment_method.svg?v=1701413902\">\n<\/div>\n<div class=\"main-service_available\">\n    <div class=\"items text-center\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/Easy_Return.svg?v=1701414871\">\n        <p>Easy Return<\/p>\n    <\/div>\n    <div class=\"items text-center\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/COD_Available.svg?v=1701414871\">\n        <p>COD Available<\/p>\n    <\/div>\n    <div class=\"items text-center\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/Fast_Delivery.svg?v=1701414870\">\n        <p>Fast Delivery<\/p>\n    <\/div>\n\n<\/div>"
+          }
+        },
+        "collapsible_tab_dLw6Ky": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW TO PREPARE",
+            "content": "{{ product.metafields.custom.how_to_prepare | metafield_tag }}",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_mkMzrC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SPECIAL FACTS",
+            "content": "{{ product.metafields.custom.special_facts | metafield_tag }}",
+            "liquid": "",
+            "default_open": true
+          }
+        },
+        "custom_liquid_kwnEdR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"container tasting-notes-wrapper\">\n  <m-icon-box data-enable-slider=\"true\" data-show-pagination=\"false\" data-show-navigation=\"true\" data-items=\"5\" class=\"m-swiper-overflow m:block\">\n      <div class=\"m-icon-box-section__wrapper m-mixed-layout m-mixed-layout--mobile-scroll\">\n        <div class=\"m-mixed-layout__wrapper\">\n          <div class=\"m-mixed-layout__inner m:grid m:grid md:m:grid-2-cols lg:m:grid-4-cols\">\n            {% assign tasting_notes_blocks = product.metafields.custom.tasting_notes | split : ',' %}\n            {%- for tasting_notes_block in tasting_notes_blocks -%} \n            {% assign tasting_notes_img_url = tasting_notes_block | handleize | prepend : 'custom_' | append : '.png' %}         \n            <div class=\"m:column\">\n              <div class=\"m-icon-box m-icon-box--vertical m-scroll-trigger animate--fade-in-up\" data-cascade=\"\" style=\"--animation-order: 0;\">\n                <div class=\"m-icon-box__inner m:flex-col m:items-center\">\n                  <div class=\"m-icon-box__icon m-hover-box m-hover-box--scale-up m:items-center\">\n                    <div class=\"m-hover-box__wrapper m:w-full\">\n                      <img src=\"{{ tasting_notes_img_url | file_img_url  }}\" width=\"auto\" height=\"auto\" loading=\"lazy\" alt=\"{{ tasting_notes_block }}\" class=\"m-icon-box__external-image m-image\">\n                    <\/div>\n                  <\/div>\n                  <div class=\"m-icon-box__content m:flex-1 m:text-center\">\n                    <h3 class=\"m-icon-box__heading h4\">{{ tasting_notes_block }}<\/h3>\n                  <\/div>\n                <\/div>\n              <\/div>\n            <\/div>\n            {%- endfor -%}\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/m-icon-box>\n  <\/div>\n  <style>\n    .m-icon-box__heading{\n      margin: 0 auto;\n      font-size: 18px;\n    }\n.tasting-notes-wrapper .m\\:column {\n    padding: 0 10px;\n    text-align: center;\n}\n  <\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "judge_me_reviews_preview_badge_J9R9TT",
+        "meta_eGHPck",
+        "short_description_EfhNJA",
+        "price",
+        "custom_liquid_yQREHR",
+        "custom_liquid_hBqD8k",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_Y8UjDt",
+        "collapsible_tab_dLw6Ky",
+        "collapsible_tab_mkMzrC",
+        "custom_liquid_kwnEdR"
+      ],
+      "custom_css": [
+        "responsive-image.m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-2",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "disable_selected_variant_default": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": true,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": true,
+        "sticky_atc_wishtlist": true,
+        "sticky_atc_compare": false
+      }
+    },
+    "custom_content_8BarQX": {
+      "type": "custom-content",
+      "blocks": {
+        "liquid_CjPjHk": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"multi-column__item justify-start snap-start\"><div class=\"v-stack gap-3 text-start\"><p class=\"subheading\">Description<\/p><p class=\"h4\">Variety of Wellness in Every Sip<\/p><div class=\"prose\"><p>Discover the enchanting world of our Selection Pack of Four Herbal Infusions. These exquisite blends, carefully crafted from premium ingredients, offer a myriad of benefits. Experience relaxation with the soothing aroma of Lemon Ginger Infusion, enjoy restful sleep with Good Night Sleep, detoxify your body with Detox, and promote mental clarity with Tulsi Brahmi. These infusions are a delightful and healthful choice for your daily tea ritual.<\/p><\/div><\/div>\n<img src=\"\/\/shistaka.com\/cdn\/shop\/files\/selection-pack-four-dm.png?v=1693984279&amp;width=2148\" alt=\"\" class=\"rounded\">\n<\/div>",
+            "width": "66%",
+            "block_custom_class": "description-section",
+            "animations": "inherit"
+          }
+        },
+        "image_xtkJfy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WoodenBox_Image_03_2.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "end",
+            "block_custom_class": "variety-image-wrapper",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_CjPjHk",
+        "image_xtkJfy"
+      ],
+      "custom_css": [
+        ".m-custom-content__block-image .m-image {border-radius: 2.75rem;}",
+        "@media (max-width: 767px) {.m-custom-content__block-image .m-image {border-radius: 15px; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "icon_box_FjEHAe": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_gYFMap": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/turmeric-bites.svg?v=1693912757&width=175",
+            "title": "Turmeric Bits",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_QGQcHQ": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/green-tea.svg?v=1693912757&width=200",
+            "title": "Green Tea",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_frfmAg": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/ginger.svg?v=1693912757&width=187",
+            "title": "Ginger",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_tfzGVr": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/real-cut-lemon.svg?v=1693918592&width=187",
+            "title": "Real Cut Lemon",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_aJjRTK": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/giloy.svg?v=1693919094&width=187",
+            "title": "Giloy",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_wK9kew": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/lemon-peels.svg?v=1693918592&width=174",
+            "title": "Lemon Peels",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_nNGVbw": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "https:\/\/shistaka.com\/cdn\/shop\/files\/tulsi.svg?v=1693912757&width=200",
+            "title": "This is heading text",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_gYFMap",
+        "iconbox_QGQcHQ",
+        "iconbox_frfmAg",
+        "iconbox_tfzGVr",
+        "iconbox_aJjRTK",
+        "iconbox_wK9kew",
+        "iconbox_nNGVbw"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".m-slider-controls--absolute .m-slider-controls__button-next {right: 0;}",
+        ".m-slider-controls--absolute .m-slider-controls__button-prev {left: 0;}"
+      ],
+      "settings": {
+        "heading": "All-star ingredients",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "Natural, organic herbs are carefully selected for their quality and <br>flavor. There is pure, unadulterated goodness in every sip.",
+        "header_alignment": "left",
+        "container": "container",
+        "color_scheme": "",
+        "item_per_row": 5,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "100px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_WbrNKa": {
+      "type": "custom-content",
+      "blocks": {
+        "liquid_ebyeEW": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"shistaka_nutrition\">     <div class=\"shis_header\">         <h3>Nutrition<\/h3>         <div>             <p> Serving size :<br> 1 infusion bag ( 1.8gm ) <\/p>         <\/div>     <\/div>     <div class=\"shis_flex\">         <div class=\"shis_body\">             <h3>Serving per box : 25<\/h3>             <div class=\"shis_content\">                 <p>Carbohydrate (g)<\/p>                 <p class=\"shis_pe\">66.40 g \/ 100g<\/p>             <\/div>             <div class=\"shis_content\">                 <p>Energy (Kcal)<\/p>                 <p class=\"shis_pe\">358.53 Kcal \/ 100g<\/p>             <\/div>             <div class=\"shis_content\">                 <p>Sugar (g)<\/p>                 <p class=\"shis_pe\">Nil<\/p>             <\/div>             <div class=\"shis_content\">                 <p>Protein (g)<\/p>                 <p class=\"shis_pe\">15.75 g \/ 100g<\/p>             <\/div>             <div class=\"shis_content\">                 <p>Fat (g)<\/p>                 <p class=\"shis_pe\">3.33 g \/ 100g<\/p>             <\/div>             <h3>Each 1.8 grams infusion bag contains<\/h3>         <\/div>         <div class=\"shis_body\">             <h3>Ingredients<\/h3>             <div class=\"shis_content\">                 <p>*Organic Tulsi Leaf ( Ocimum sanctum )<\/p>                 <p>65.00%<\/p>             <\/div>             <div class=\"shis_content\">                 <p>*Organic Green Tea ( Camellia sinesis )<\/p>                 <p>15.00%<\/p>             <\/div>             <div class=\"shis_content\">                 <p>*Organic Ginger ( Zingiber offcinale )<\/p>                 <p>14.00%<\/p>             <\/div>             <div class=\"shis_content\">                 <p>*Organic Giloy ( Tinospora cordifolia )<\/p>                 <p>3.00%<\/p>             <\/div>             <div class=\"shis_content\">                 <p>*Organic Neem ( Azadirachta indica )<\/p>                 <p>3.00%<\/p>             <\/div>             <h3>*Certified Organic Ingredients<\/h3>         <\/div>     <\/div> <\/div>",
+            "width": "100%",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_ebyeEW"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.<\/p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.<\/p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "default_open": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_fTbdpX": {
+      "type": "icon-box",
+      "custom_css": [
+        "@media (min-width: 768px) {.m-section__description {max-width: 45%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "settings": {
+        "heading": "Ingredients",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "Crisp, spicy and sweet aromas make this tea a household favourite! This full-bodied smooth tea with sweet rich cinnamon and an enticing aroma of clove will make this a memorable cup of tea.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_liquid_GJV3Nz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container ingredients-wrapper\">\n<m-icon-box data-enable-slider=\"true\" data-show-pagination=\"false\" data-show-navigation=\"true\" data-items=\"5\" class=\"m-swiper-overflow m:block\">\n    <div class=\"m-icon-box-section__wrapper m-mixed-layout m-mixed-layout--mobile-scroll\">\n      <div class=\"m-mixed-layout__wrapper\">\n        <div class=\"m-mixed-layout__inner m:grid m:grid md:m:grid-2-cols lg:m:grid-4-cols\">\n          {% assign ingredients_blocks = product.metafields.custom.ingredients | split : ',' %}\n          {%- for ingredients_block in ingredients_blocks -%} \n          {% assign ingredients_img_url = ingredients_block | handleize | prepend : 'image_' | append : '.png' %}         \n          <div class=\"m:column\">\n            <div class=\"m-icon-box m-icon-box--vertical m-scroll-trigger animate--fade-in-up\" data-cascade=\"\" style=\"--animation-order: 0;\">\n              <div class=\"m-icon-box__inner m:flex-col m:items-center\">\n                <div class=\"m-icon-box__icon m-hover-box m-hover-box--scale-up m:items-center\">\n                  <div class=\"m-hover-box__wrapper m:w-full\">\n                    <img src=\"{{ ingredients_img_url | file_img_url  }}\" width=\"auto\" height=\"auto\" loading=\"lazy\" alt=\"{{ ingredients_block }}\" class=\"m-icon-box__external-image m-image\">\n                  <\/div>\n                <\/div>\n                <div class=\"m-icon-box__content m:flex-1 m:text-center\">\n                  <h3 class=\"m-icon-box__heading h4\">{{ ingredients_block }}<\/h3>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          {%- endfor -%}\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/m-icon-box>\n<\/div>\n<style>\n.ingredients-wrapper .m\\:column {\n    padding: 0 10px;\n    text-align: center;\n}\n  .m-icon-box__heading{\n    margin: 0 auto;\n    font-size: 18px;\n  }\n<\/style>",
+        "custom_class": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "remove_params": false,
+        "heading": "You Might Also Like",
+        "heading_size": "h2",
+        "text_align": "center",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true,
+        "use_scroll_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "heading": "Recently Viewed Products",
+        "heading_size": "h3",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1706158203d2c36f52": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_QDVBAt": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_QDVBAt"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "custom_content_8BarQX",
+    "icon_box_FjEHAe",
+    "custom_content_WbrNKa",
+    "product-details-tabs",
+    "icon_box_fTbdpX",
+    "custom_liquid_GJV3Nz",
+    "product-recommendations",
+    "recent-viewed-products",
+    "1706158203d2c36f52"
+  ]
+}

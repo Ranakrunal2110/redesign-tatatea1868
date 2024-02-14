@@ -1,0 +1,710 @@
+{
+  "sections": {
+    "c72959ad-9620-4e94-ae33-1bde908e9701": {
+      "type": "custom-code",
+      "settings": {
+        "custom_css": ""
+      }
+    },
+    "1621243260e1af0c20": {
+      "type": "slider",
+      "blocks": {
+        "1621243260e1af0c20-0": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/1868_Sip_SavourAndSave_Banner3_1.jpg",
+            "mb_background": "shopify:\/\/shop_images\/1868_Sip_SavourAndSave_Banner_Mobile.jpg",
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "sf__btn-secondary",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1621243260e1af0c20-0"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "dark",
+        "show_dots": true,
+        "show_arrows": true,
+        "autorotate": true,
+        "autorotate_speed": 4,
+        "use_content_above": false,
+        "custom_class": "sf-home__slideshow",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_gw8GRR": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".m-product-card__main-image responsive-image.m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "heading": "Favourites 💕",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "default",
+        "container": "container-fluid",
+        "collection": "new-arrival",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "4",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": true,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_39XY3V": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "subheading": "",
+        "container": "container",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/NolengurCardamomchai_01.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Our Story",
+        "sub_title": "",
+        "text": "<p>1868 by Tata Tea is a collection of specially curated tea blends poised to spark many moments of magic. Inspired by India – this collection tells the glorious stories of tea in a simple yet evocative manner. Each tea is born amidst a variety of flora, fauna, climate and topography. Furthermore, teas are paired with spices and flavours, fruits & flowers culminating in a taste experience that is unforgettable. 1868 is a celebration of diversity with each carefully selected variant having its unique story to tell, 1868 is celebration of Truly Indian Tea Stories.<\/p>",
+        "text_size": "large",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_YGJ7Bb": {
+      "type": "custom-content",
+      "blocks": {
+        "text_Rk3xYH": {
+          "type": "text",
+          "settings": {
+            "title": "Our Story 📜",
+            "subheading": "",
+            "text": "<p>1868 by Tata Tea is a collection of specially curated tea blends poised to spark many moments of magic. Inspired by India – this collection tells the glorious stories of tea in a simple yet evocative manner. Each tea is born amidst a variety of flora, fauna, climate and topography. Furthermore, teas are paired with spices and flavours, fruits & flowers culminating in a taste experience that is unforgettable. 1868 is a celebration of diversity with each carefully selected variant having its unique story to tell, 1868 is celebration of Truly Indian Tea Stories.<br\/><br\/><\/p><p>Furthermore, these teas are artfully paired with an array of spices, flavors, fruits, and flowers, culminating in an unparalleled sensory journey. With every sip, 1868 invites you to partake in a celebration of diversity, as each variant bears its own captivating tale. It's a tribute to the quintessential charm of Indian tea, encapsulating the essence of Truly Indian Tea Stories in every cup.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/our-story",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_iUNXQT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1868_Wooden_Gift_Box_Banner_V2_MOBILE.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_Rk3xYH",
+        "image_iUNXQT"
+      ],
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}",
+        ".m-richtext__description {margin-top: 24px; font-size: 24px; line-height: 1.4;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "collection_list_Frfccn": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_block_xndacy": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "black-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/black_tea.png"
+          }
+        },
+        "collection_block_gyWxEX": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "green-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/green_tea.png"
+          }
+        },
+        "collection_block_bGcGez": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "fruit-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/fruit_tea_9e25b886-f53c-41c9-8d58-01b31ce651ce.png"
+          }
+        },
+        "collection_block_6xWCGi": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "chai-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/chai_tea_09893fe5-8621-4aac-84ab-25de3233ed38.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_xndacy",
+        "collection_block_gyWxEX",
+        "collection_block_bGcGez",
+        "collection_block_6xWCGi"
+      ],
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}",
+        ".m-collection-card__info {display: none !important;}"
+      ],
+      "settings": {
+        "heading": "Shop by Tea Type 🌿",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "layout": "grid",
+        "expanded": true,
+        "card_style": "standard",
+        "text_alignment": "left",
+        "hover_effect": "none",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_kqdGX9": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".m-product-card__main-image responsive-image.m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "heading": "Tea Bags 🍵",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "default",
+        "container": "container-fluid",
+        "collection": "tea-bags",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 8,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "4",
+        "pcard_image_ratio": "original",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Shop more",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "fade-in-up"
+      }
+    },
+    "custom_content_mhGB3d": {
+      "type": "custom-content",
+      "blocks": {
+        "image_yiNnLe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web-1.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_yiNnLe"
+      ],
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "heading": "🏆 Flavour of the month 🏆",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16225316461d1cff80": {
+      "type": "collection-list",
+      "blocks": {
+        "65e38235-f03b-43c9-8590-38c9c656e51c": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "premium-assam-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/assam_f9524b7d-fbf0-4d54-b89a-69a7cf0d1ad0.png"
+          }
+        },
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "premium-darjeeling-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/darjelling_3d046073-6f68-49df-90d7-83c8a067e968.png"
+          }
+        },
+        "16225316461d1cff80-1": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "premium-munnar-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/munnar_4d7348cb-a440-4b7b-b0ac-db3abcbfd7f0.png"
+          }
+        }
+      },
+      "block_order": [
+        "65e38235-f03b-43c9-8590-38c9c656e51c",
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
+        "16225316461d1cff80-1"
+      ],
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}",
+        ".m-collection-card__info {display: none !important;}"
+      ],
+      "settings": {
+        "heading": "Across Origins ⛰️",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "default",
+        "container": "container",
+        "layout": "grid",
+        "expanded": false,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "none",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 3,
+        "item_gap": 40,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 4,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 16,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf-home__collection-list",
+        "animations": "fade-in-up"
+      }
+    },
+    "video_hero_eWXxJf": {
+      "type": "video-hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "container-fluid",
+        "hero_size": "adapt",
+        "video_ratio": "16\/9",
+        "show_overlay": false,
+        "video_type": "external",
+        "video_url": "https:\/\/youtu.be\/ahNekOvOW5w",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_gj3Wxm": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "New Launch",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "collection": "favourites",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 5,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": true,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "Shop more",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "11cfb44f-b725-4daf-8ee7-4bbf2c63914d": {
+      "type": "instagram",
+      "disabled": true,
+      "settings": {
+        "heading": "Follow us Instagram",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "Tag <span class=\"text-black\">@minimog<\/span> in your Instagram photos for a chance to be featured here.<br>\nFind more inspiration on <a href=\"#\">our Instagram.<\/a>",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "layout": "grid",
+        "images_count": 5,
+        "grid_columns": 5,
+        "gap": 30,
+        "mobile_gap": 10,
+        "profile": "https:\/\/www.instagram.com\/minimog.trendy\/",
+        "button_label": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16225125199f82d8fe": {
+      "type": "icon-box",
+      "blocks": {
+        "16225125199f82d8fe-0": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "New Launch 1",
+            "description": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16225125199f82d8fe-1": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "New Launch 2",
+            "description": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16225125199f82d8fe-2": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "image_by_url": "",
+            "title": "Online Support",
+            "description": "<p>24 hours a day, 7 days a week<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "71deafbb-3baf-443a-a087-3f7b8af7b9fa": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "image_by_url": "",
+            "title": "Flexible Payment",
+            "description": "<p>Pay with Multiple Credit Cards<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "16225125199f82d8fe-0",
+        "16225125199f82d8fe-1",
+        "16225125199f82d8fe-2",
+        "71deafbb-3baf-443a-a087-3f7b8af7b9fa"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 767px) {.m-icon-box__inner {flex-wrap: wrap; flex-direction: column; } .m-icon-box--horizontal .m-icon-box__icon {margin-bottom: 12px; width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "color_scheme": "",
+        "item_per_row": 2,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "horizontal",
+        "image_max_width": "125px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": true,
+        "show_navigation": true,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 46,
+        "padding_bottom": 46,
+        "custom_class": "m-icon-box--small",
+        "animations": "inherit"
+      }
+    },
+    "custom_liquid_wKP6rJ": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"section \n  \n  section-blends section-full section-quality\">\n    <div class=\"main-quality\">\n    <div class=\"quality-top quality-tb\">\n        <section-header class=\"section-header quality-head\">\n            <div class=\"prose\">\n                <p class=\"sub_head\">from <span>India<\/span> with <span>love<\/span>.<\/p>\n                <h2 class=\"h2\" reveal-on-scroll=\"true\" style=\"opacity: 1;\">\n\n                    <span>Quality.<\/span> never negotiated. <br>\n                    <span>Taste.<\/span> never compromised.\n\n                <\/h2>\n                <p>Indulge in our premium herbal teas, where quality is non-negotiable and taste is never compromised.\n                    Explore our sustainable farming practices.<\/p>\n                \n            <\/div>\n        <\/section-header>\n\n        <div class=\"section_video\">\n            <div class=\"main-video\">\n                <video src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f3bfd7ba47744fe9a078c0c2ff9abef.mp4\" playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\"><\/video>\n            <\/div>\n        <\/div>\n    <\/div>\n    <div class=\"quality-bottom quality-tb\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/usda.svg?v=1692275123\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/vegan.svg?v=1692275123\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0537\/7323\/8459\/files\/brc.svg?v=1692275122\">\n    <\/div>\n<\/div>\n  <\/div>",
+        "custom_class": ""
+      }
+    },
+    "collection_list_n4cBK8": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_block_hCJtP9": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "loose-leaf-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/loose_leaf_tea.png"
+          }
+        },
+        "collection_block_fHkFxW": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "tea-bags",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/pyramid.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_hCJtP9",
+        "collection_block_fHkFxW"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by TEA FORMAT",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "layout": "grid",
+        "expanded": true,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "none",
+        "show_product_count": true,
+        "count_inline_title": true,
+        "image_rounded": false,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "1707806798c4125b5d": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_WPcjUw": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_WPcjUw"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "c72959ad-9620-4e94-ae33-1bde908e9701",
+    "1621243260e1af0c20",
+    "featured_collection_gw8GRR",
+    "image_with_text_39XY3V",
+    "custom_content_YGJ7Bb",
+    "collection_list_Frfccn",
+    "featured_collection_kqdGX9",
+    "custom_content_mhGB3d",
+    "16225316461d1cff80",
+    "video_hero_eWXxJf",
+    "featured_collection_gj3Wxm",
+    "11cfb44f-b725-4daf-8ee7-4bbf2c63914d",
+    "16225125199f82d8fe",
+    "custom_liquid_wKP6rJ",
+    "collection_list_n4cBK8",
+    "1707806798c4125b5d"
+  ]
+}

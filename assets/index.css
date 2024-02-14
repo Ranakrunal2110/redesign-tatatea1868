@@ -1,0 +1,151 @@
+
+.quality-top {
+    background-color: #184435;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    padding-top: 155px;
+}
+.quality-tb::before,
+.quality-tb::after,
+.footer:before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    left: 0;
+}
+.quality-top::before {
+    top: 0;
+    background-image: url(/cdn/shop/files/green-round.svg?v=1692033885);
+    height: 120px;
+}
+.quality-bottom {
+    background-color: #eaa025;
+    width: 100%;
+    height: 480px;
+    padding-bottom: 132px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 80px;
+}
+.quality-bottom::before {
+    bottom: 0;
+    background-image: url(/cdn/shop/files/yellow-round.svg?v=1692033885);
+    height: 120px;
+}
+.quality-top::after {
+    bottom: -29px;
+    background-image: url(/cdn/shop/files/quality-border.svg?v=1692187388);
+    height: 29px;
+    z-index: 1;
+}
+.quality-bottom:after {
+    bottom: -24.5px;
+    background-image: url(/cdn/shop/files/quality-chakra.svg?v=1692265875);
+    background-size: unset;
+    height: 49px;
+    width: 49px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-quality {
+    padding-left: 0;
+    padding-right: 0;
+}
+.quality-head {
+    color: #fff;
+}
+.quality-head .sub_head {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+}
+.quality-head .sub_head:after {
+    content: "";
+    position: absolute;
+    background-image: url(/cdn/shop/files/white-heart.svg?v=1692177880);
+    width: 25px;
+    height: 25px;
+    top: 0;
+    right: 0;
+    top: -12px;
+    right: -12px;
+}
+.quality-head .sub_head span {
+    font-weight: 700;
+}
+.section_video {
+    width: 1620px;
+    height: 730px;
+    position: absolute;
+    bottom: -160px;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-video {
+    -webkit-mask-image: url(/cdn/shop/files/quality-video-shape.png?v=1692181514);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-position: top;
+    mask-position: top;
+}
+.quality-head .h2 {
+    font-size: 75px;
+    line-height: 1.198;
+    margin-block-start: var(--spacing-5) !important;
+}
+.quality-head {
+    grid-template-columns: 100%;
+}
+.quality-head .h2 span {
+    color: #eaa025;
+}
+.quality-head p:not(.sub_head) {
+    width: 40%;
+    margin-inline: auto;
+    margin-block-start: var(--spacing-10);
+}
+.quality-head .quality-btn {
+    display: inline-block;
+    background-color: #fff;
+    width: 82.38px;
+    height: 84px;
+    border-radius: 133px 133px 0px 0px;
+    padding: 3px 1px 1px 1px;
+    transition: all 0.3s ease;
+    margin-block-start: var(--spacing-10);
+}
+.quality-head .quality-btn a {
+    background-color: #184435;
+    width: 93%;
+    height: 100%;
+    display: block;
+    border-radius: 133px 133px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+    background-image: unset;
+    transition: all 0.3s ease;
+    line-height: 1.06;
+    display: flex;
+    align-items: end;
+}
+.quality-head .quality-btn:hover {
+    border-radius: 112px 133px 0 0;
+    transition: all 0.3s ease;
+}
+.quality-head .quality-btn:hover a {
+    width: 83%;
+    transition: all 0.3s ease;
+    padding: 10px 5px;
+}
