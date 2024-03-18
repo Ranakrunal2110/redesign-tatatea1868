@@ -436,3 +436,13 @@ align-content: start;
   background-color: rgb(var(--color-button-hover));
   color: rgb(var(--color-button-text-hover));
 }
+.custom-button-pack input+.m-product-option--node__label{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.custom-button-pack input+.m-product-option--node__label span{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
