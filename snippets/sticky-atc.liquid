@@ -71,7 +71,7 @@
             <label for="id" class="m:visually-hidden">Select option</label>
             <select
               name="id"
-              class="m-product-option--dropdown-select{% if product.has_only_default_variant %} m:hidden{% endif %}"
+              class="product-form m-product-option--dropdown-select{% if product.has_only_default_variant %} m:hidden{% endif %}"
             >
               <option value="" disabled>Select option</option>
               {% for variant in product.variants %}
@@ -84,6 +84,8 @@
                   {% if selected %}
                     selected="true"
                   {% endif %}
+                  data-variant-price="{{ variant.price}}"
+                  {% if variant.compare_at_price %}data-variant-compare-price="{{ variant.compare_at_price}}"{% endif %}
                 >
                   {{ variant.title }} - {{ variant.price | money }}
                 </option>
