@@ -2,15 +2,18 @@
   "sections": {
     "collection-header": {
       "type": "collection-page-header",
+      "custom_css": [
+        ".m-product-card__main-image responsive-image.m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
       "settings": {
         "color_scheme": "",
         "container": "container",
-        "layout": "inside",
+        "layout": "without_breadcrumb",
         "header_height": "small",
         "enable_parallax": false,
         "text_alignment": "center",
         "vertical_alignment": "center",
-        "text_color": "inherit",
+        "text_color": "black",
         "upper_title": false,
         "show_desc": false,
         "collection_all_desc": "",
@@ -83,15 +86,18 @@
         "4903963a-90f0-4fe1-be23-ee4f8749e483",
         "00b3badd-1613-4230-85d8-f87f04306aaa"
       ],
+      "custom_css": [
+        ".m-product-card__main-image responsive-image.m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
       "settings": {
         "container": "container",
         "grid_layout": "grid",
-        "grid_columns": "4",
+        "grid_columns": "3",
         "show_columns_switcher": false,
         "pagination_limit": 12,
         "paginate_type": "loadmore",
         "show_sorting": true,
-        "show_filter": true,
+        "show_filter": false,
         "filters_type": "storefront_filters",
         "sidebar": "leftColumn",
         "sidebar_title": "Filters",

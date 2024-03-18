@@ -34,7 +34,6 @@
     "password_page": {
       "opening_soon": "Opening Soon"
     },
-    "social": {},
     "search": {
       "title": "Search our store",
       "placeholder": "Search products",
@@ -388,7 +387,7 @@
       "decrease_quantity": "Decrease quantity of {{ title }} by one",
       "increase_quantity": "Increase quantity of {{ title }} by one",
       "quantity_input_label": "Quantity for {{ product }}",
-      "include_taxes": "Tax included.",
+      "include_taxes": "M.R.P (Inclusive of all taxes)",
       "price": {
         "from_price_html": "From {{ price }}",
         "regular_price": "Regular price",

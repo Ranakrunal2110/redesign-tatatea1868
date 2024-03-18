@@ -9,7 +9,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Let’s get in touch",
-            "description": "Sign up for our newsletter and receive 10% off your",
+            "description": "Sign up for our newsletter and receive 10% off your order",
             "email_placeholder": "Enter your email",
             "form_style": "bordered",
             "show_social": false,
@@ -28,8 +28,8 @@
         "7ebc2f78-975b-4a81-b874-103c3355a866": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
-            "title": "",
+            "menu": "footer",
+            "title": "Important Links",
             "width": "25%",
             "order_first": false,
             "open_default": false
@@ -38,7 +38,7 @@
         "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "secondry-footer-menu",
             "title": "Information",
             "width": "25%",
             "order_first": false,
@@ -48,8 +48,8 @@
         "93571032-b171-4c66-8b3e-96cd91946363": {
           "type": "our_store",
           "settings": {
-            "title": "Our store",
-            "description": "",
+            "title": "Contact",
+            "description": "<p>Tata Consumer Products LTD. Kirloskar Business Park, Hebbal, Bengaluru - 560 024.<\/p><p><a href=\"tel:1800 345 1720\" title=\"tel:1800 345 1720\">1800 345 1720<\/a><\/p><p><a href=\"tel:1800 345 1720\" title=\"tel:1800 345 1720\"><br\/><\/a><a href=\"mailto:contact.us@tataconsumer.com\" title=\"mailto:contact.us@tataconsumer.com\">contact.us@tataconsumer.com<\/a><\/p>",
             "show_email": false,
             "show_phone": false,
             "show_socials_link": true,

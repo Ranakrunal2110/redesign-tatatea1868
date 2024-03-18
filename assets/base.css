@@ -408,6 +408,15 @@ align-content: start;
     transition: all 0.3s ease;
     padding: 10px 5px;
 }
+
+.m-product-card__title .m-product-card__name {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 50px;
+}
 .template-product m-quantity-input{
   opacity: 0.5;
   pointer-events: none;

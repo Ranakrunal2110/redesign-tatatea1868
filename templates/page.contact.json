@@ -8,13 +8,20 @@
     },
     "maps": {
       "type": "maps",
+      "disabled": true,
       "settings": {
         "container": "container",
+        "color_scheme": "",
         "map_height": "large",
         "textx": "40.6700",
         "texty": "-73.9400",
         "zoom": "11",
-        "text2": "New York"
+        "text2": "New York",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "use_content_in_container": false,
+        "animations": "inherit",
+        "custom_class": ""
       }
     },
     "contact-form": {
@@ -24,14 +31,14 @@
           "type": "textblock",
           "settings": {
             "title": "Address",
-            "content": "<p>7895 Piermont Dr NE Albuquerque, NM 198866, <a href=\"#\">See Our Stores<\/a><\/p>"
+            "content": "<p>Tata Consumer Products LTD. Kirloskar Business Park, Hebbal, Bengaluru - 560 024.<\/p>"
           }
         },
         "text-block-2": {
           "type": "textblock",
           "settings": {
             "title": "Information",
-            "content": "<p>+391 (0)35 2568 4593<\/p><p>hello@domain.com<\/p>"
+            "content": "<p><a href=\"tel:1800 345 1720\" title=\"tel:1800 345 1720\">1800 345 1720<br\/><br\/><\/a><a href=\"mailto:care@tataconsumer.com\" title=\"mailto:care@tataconsumer.com\">care@tataconsumer.com<\/a><\/p>"
           }
         },
         "text-block-3": {
@@ -42,6 +49,7 @@
         },
         "text-block-4": {
           "type": "textblock",
+          "disabled": true,
           "settings": {
             "title": "We're Open",
             "content": "<p>Our store has re-opened for shopping, exchanges<\/p><p>Every day 11am to 7pm<\/p>"
@@ -57,7 +65,11 @@
       "settings": {
         "container": "container",
         "title": "We would love to hear from you.",
-        "description": "<p>If you’ve got great products your making or looking to work with us then drop us a line.<\/p>"
+        "description": "<p>If you’ve got great products your making or looking to work with us then drop us a line.<\/p>",
+        "show_name": true,
+        "show_phone": false,
+        "show_signup_email": true,
+        "animations": "inherit"
       }
     }
   },

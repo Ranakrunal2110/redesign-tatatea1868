@@ -3,8 +3,15 @@
     "main": {
       "type": "page-faqs",
       "blocks": {
+        "content_BAEenb": {
+          "type": "content",
+          "settings": {
+            "content": "<br><br>\n<h1>FAQs<\/h1>"
+          }
+        },
         "custom-content": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "content": "<div class=\"mb-10\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/faqs.jpg?v=1620784288\"><\/div>\n<h3 class=\"font-medium text-xl mb-4\">Awkwardness gives me great comfort. I’ve never been cool, but I’ve felt cool. I’ve been in the cool place, but I wasn’t really cool – I was trying to pass for hip or cool.<\/h3>\n<p>A girl should be two things: classy and fabulous. I am convinced that there can be luxury in simplicity. I wanted to dress the woman who lives and works, not the woman in a painting. It’s hard to balance everything. It’s always challenging. My relationships with producers or photographers – these are relationships that took years. I can’t get sucked into that celebrity thing, because I think it’s just crass. My aim is to make the poor look rich.<\/p>"
           }
@@ -12,55 +19,103 @@
         "accordion-1": {
           "type": "accordion",
           "settings": {
-            "title": "What shipping methods are availbale?",
-            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.<br\/><br\/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.<\/p>",
+            "title": "Is it safe to buy 1868 by Tata Tea online?",
+            "content": "<p>Yes, it is as safe as online shopping and banking! We keep your personal and financial details safe and also ensure the security of payments. All our products are100% authenticated, which implies that you need not worry about their quality and purity.<\/p>",
             "open": true
           }
         },
         "accordion-2": {
           "type": "accordion",
           "settings": {
-            "title": "How long will it take to get my package?",
-            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "title": "Are your products authenticated?",
+            "content": "<p>As we are associated with Tata Group, we carry the legacy that dates back to almost a century. Additionally, we make each of our products undergo stringent quality checks to ensure that every single product we sell meets the highest standards. The tea sourcing estates are all Rainforest Alliance Certified and adheres to all food safety norms.<\/p>",
             "open": false
           }
         },
         "accordion-3": {
           "type": "accordion",
           "settings": {
-            "title": "Do you ship internationally?",
-            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "title": "How can I place an order for 1868 by Tata Tea?",
+            "content": "<p>Explore our product collection, choose the products that you want to purchase and click on the “Add to Cart” Button.<\/p><p>Next, you will be redirected to your shopping cart page. Click on “Place Order” button and you will be required to make payment for your order. Alternatively, you can click on “Continue Shopping” button if you want to add more products in the shopping cart.<\/p><p>Enter your details, such as your name, email ID, contact number, and shipping and billing addresses. Now, proceed to payment.<\/p><p>Select the preferred payment mode and complete the payment.<\/p><p>You will get an email for confirmation on the email address shared while placing the order.<\/p>",
             "open": false
           }
         },
         "accordion-4": {
           "type": "accordion",
           "settings": {
-            "title": "What payment methods are accepted?",
-            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.<\/p>",
+            "title": "How can I track my order?",
+            "content": "<p>Check the “My Account” section to review the status of your orders and the related tracking information as well. You can also call us at customer care number.<\/p><p>Click on “My Orders” to view the status of the orders you have placed.<\/p><p>Click on “Order Number” to check the status of a specific order.<\/p><p>You will get regular updates regarding your order over email.<\/p>",
             "open": false
           }
         },
         "accordion-5": {
           "type": "accordion",
           "settings": {
-            "title": "Is buying on-line safe?",
-            "content": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>",
+            "title": "What are the methods of payment I can use while shopping on TATA Tea?",
+            "content": "<p>We have an integrated Razorpay gateway which accepts standard Digital Payment methods attached to Razorpay.<\/p>",
+            "open": false
+          }
+        },
+        "accordion_74Nibc": {
+          "type": "accordion",
+          "settings": {
+            "title": "Is it safe to pay with debit\/credit card?",
+            "content": "<p>Yes, you can pay with debit\/credit card without security concerns. Our website integrates a secure payment gateway which uses the latest SSL encoding technology for the encryption and decryption of the data sent through it. This ensures that all the vital information including card details is neither stored nor visible to other entities.<\/p>",
+            "open": false
+          }
+        },
+        "accordion_CnB3iD": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do I have to pay shipping charges?",
+            "content": "<p>To ensure that your order is delivered to you in a safe and secure way, we work with some of the best courier services in the country. Hence, we charge our buyers a small shipping fee to ensure the best possible services. The exact shipping fee will be added to your cart value before you make the payment.<\/p>",
+            "open": false
+          }
+        },
+        "accordion_kxYXPz": {
+          "type": "accordion",
+          "settings": {
+            "title": "Are there any hidden costs?",
+            "content": "<p>When you shop from us, you need not bear any hidden costs or extra shipping charges. The total price mentioned on the cart\/check out page is also the final price of the product. So, you pay what you see!<\/p>",
+            "open": false
+          }
+        },
+        "accordion_pJy6cN": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I pay cash on delivery?",
+            "content": "<p>All purchase on <a href=\"https:\/\/www.tatatea1868.com\/\" title=\"\/\">www.tatatea1868.com<\/a> is on a prepaid basis. We will not be accepting cash on delivery.<\/p>",
+            "open": false
+          }
+        },
+        "accordion_DydaLe": {
+          "type": "accordion",
+          "settings": {
+            "title": "Who do I contact in case of any queries?",
+            "content": "<p>In case of doubts & queries or any enquiry about your order, please get in touch with our Customer Support Team.<\/p>",
             "open": false
           }
         }
       },
       "block_order": [
+        "content_BAEenb",
         "custom-content",
         "accordion-1",
         "accordion-2",
         "accordion-3",
         "accordion-4",
-        "accordion-5"
+        "accordion-5",
+        "accordion_74Nibc",
+        "accordion_CnB3iD",
+        "accordion_kxYXPz",
+        "accordion_pJy6cN",
+        "accordion_DydaLe"
       ],
       "settings": {
         "container": "container",
-        "menu": ""
+        "color_scheme": "",
+        "menu": "",
+        "custom_class": ""
       }
     }
   },

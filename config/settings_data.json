@@ -1,9 +1,9 @@
 {
   "current": {
     "favicon": "",
-    "container_width": 1200,
-    "container_fluid_width": 1620,
-    "container_fluid_offset": 65,
+    "container_width": 1100,
+    "container_fluid_width": 1360,
+    "container_fluid_offset": 100,
     "type_base_font": "roboto_condensed_n4",
     "use_custom_font_body": true,
     "custom_body_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0681\/9358\/3326\/files\/circular-std-medium-500.ttf?v=1707825371",
@@ -12,11 +12,15 @@
     "use_custom_font_heading": true,
     "custom_heading_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0681\/9358\/3326\/files\/circular-std-medium-500.ttf?v=1707825371",
     "custom_heading_weight": "400",
-    "type_header_base_size": 36,
+    "h1_font_size": 45,
+    "h2_font_size": 36,
+    "type_header_base_size": 32,
+    "btn_base_size": 14,
     "btn_weight": "500",
     "bg_cart_wishlist_count": "#b75737",
     "img_overlay_opacity": 20,
-    "spacing_sections": 50,
+    "spacing_sections": 70,
+    "spacing_sections_mobile": 40,
     "page_transition": false,
     "animations": "none",
     "pcard_layout": "4",
@@ -50,13 +54,15 @@
     "filter_color3": "floral",
     "share_facebook": true,
     "share_pinterest": true,
-    "social_twitter_link": "https:\/\/twitter.com\/",
+    "contact_phone_number": "1800 345 1720",
+    "contact_email": "contact.us@tataconsumer.com.",
+    "social_twitter_link": "",
     "social_twitter_label": "",
-    "social_facebook_link": "https:\/\/facebook.com\/",
+    "social_facebook_link": "https:\/\/www.facebook.com\/1868-by-Tata-Tea-103883878416042",
     "social_facebook_label": "300k Followers",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/",
+    "social_pinterest_link": "",
     "social_pinterest_label": "",
-    "social_instagram_link": "https:\/\/instagram.com\/",
+    "social_instagram_link": "https:\/\/instagram.com\/1868bytatatea?igshid=8o5xohwxylo",
     "social_instagram_label": "100k Followers",
     "discount_code_enable": true,
     "cart_estimate_shipping": false,
@@ -85,6 +91,14 @@
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "127709043890318779": {
+        "type": "shopify:\/\/apps\/aiod-all-in-1-discount\/blocks\/install-snippets\/9537caf0-36d5-4981-a648-8961a8e85652",
+        "disabled": false,
+        "settings": {
+          "aiod_v2_call": "",
+          "aiod_dev_api_call": ""
+        }
       }
     },
     "color_schemes": {
@@ -96,7 +110,7 @@
           "text": "#222222",
           "subtext": "#666666",
           "heading_text": "#222222",
-          "button": "#000000",
+          "button": "#b75737",
           "button_label": "#ffffff",
           "outline_button_label": "#000000",
           "button_hover": "#222222",
@@ -156,7 +170,7 @@
       },
       "badge-hot": {
         "settings": {
-          "background": "#9a84c8",
+          "background": "#b75737",
           "background_secondary": "#f5f5f5",
           "background_gradient": "",
           "text": "#ffffff",

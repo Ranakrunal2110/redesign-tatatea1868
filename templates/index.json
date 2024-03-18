@@ -11,9 +11,10 @@
       "blocks": {
         "1621243260e1af0c20-0": {
           "type": "slider_item",
+          "disabled": true,
           "settings": {
-            "background": "shopify:\/\/shop_images\/1868_Sip_SavourAndSave_Banner3_1.jpg",
-            "mb_background": "shopify:\/\/shop_images\/1868_Sip_SavourAndSave_Banner_Mobile.jpg",
+            "background": "shopify:\/\/shop_images\/2.1.png",
+            "mb_background": "shopify:\/\/shop_images\/2.3.png",
             "content_in_container": false,
             "content_position": "left middle",
             "text_alignment": "left",
@@ -22,9 +23,9 @@
             "subheading": "",
             "title": "",
             "description": "",
-            "image_link": "",
+            "image_link": "shopify:\/\/collections\/all",
             "button_text": "",
-            "button_link": "",
+            "button_link": "https:\/\/www.tatatea1868.com\/collections\/all",
             "button_style": "sf__btn-secondary",
             "button_size": "",
             "show_footer": false,
@@ -33,10 +34,36 @@
             "footer_button": "Shop Now",
             "footer_link": ""
           }
+        },
+        "slider_item_bgENDm": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/savourandsave_banner.jpg",
+            "mb_background": "shopify:\/\/shop_images\/savourandsave_mobile.jpg",
+            "content_in_container": false,
+            "content_position": "center middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "shopify:\/\/collections\/all",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
         }
       },
       "block_order": [
-        "1621243260e1af0c20-0"
+        "1621243260e1af0c20-0",
+        "slider_item_bgENDm"
       ],
       "settings": {
         "container": "w-full",
@@ -47,7 +74,7 @@
         "show_dots": true,
         "show_arrows": true,
         "autorotate": true,
-        "autorotate_speed": 4,
+        "autorotate_speed": 8,
         "use_content_above": false,
         "custom_class": "sf-home__slideshow",
         "animations": "inherit"
@@ -65,8 +92,8 @@
         "description": "",
         "header_alignment": "center",
         "color_scheme": "default",
-        "container": "container-fluid",
-        "collection": "new-arrival",
+        "container": "container",
+        "collection": "favourites",
         "enable_flashsale": false,
         "show_countdown": false,
         "product_to_show": 12,
@@ -131,9 +158,9 @@
         "text_Rk3xYH": {
           "type": "text",
           "settings": {
-            "title": "Our Story 📜",
+            "title": "<h3>Our Story 📜<\/h3>",
             "subheading": "",
-            "text": "<p>1868 by Tata Tea is a collection of specially curated tea blends poised to spark many moments of magic. Inspired by India – this collection tells the glorious stories of tea in a simple yet evocative manner. Each tea is born amidst a variety of flora, fauna, climate and topography. Furthermore, teas are paired with spices and flavours, fruits & flowers culminating in a taste experience that is unforgettable. 1868 is a celebration of diversity with each carefully selected variant having its unique story to tell, 1868 is celebration of Truly Indian Tea Stories.<br\/><br\/><\/p><p>Furthermore, these teas are artfully paired with an array of spices, flavors, fruits, and flowers, culminating in an unparalleled sensory journey. With every sip, 1868 invites you to partake in a celebration of diversity, as each variant bears its own captivating tale. It's a tribute to the quintessential charm of Indian tea, encapsulating the essence of Truly Indian Tea Stories in every cup.<\/p>",
+            "text": "<p>1868 by Tata Tea is a collection of specially curated tea blends poised to spark many moments of magic. Inspired by India – this collection tells the glorious stories of tea in a simple yet evocative manner. Each tea is born amidst a variety of flora, fauna, climate and topography. Furthermore, teas are paired with spices and flavours, fruits & flowers culminating in a taste experience that is unforgettable. 1868 is a celebration of diversity with each carefully selected variant having its unique story to tell, 1868 is celebration of Truly Indian Tea Stories.<\/p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "left",
@@ -147,13 +174,25 @@
             "animations": "inherit"
           }
         },
-        "image_iUNXQT": {
-          "type": "image",
+        "video_xheBrD": {
+          "type": "video",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1868_Wooden_Gift_Box_Banner_V2_MOBILE.jpg",
-            "link": "",
+            "video_type": "shopify",
+            "shopify_video": "shopify:\/\/files\/videos\/1868_BrandFilm_EnglishMaster_Subtitles.mp4",
+            "video_link": "",
+            "ratio": "4:3",
+            "image": "shopify:\/\/shop_images\/3t6K9diAbLI-HD.jpg",
+            "video_title": "",
+            "text_size": "medium",
+            "text_color": "white",
+            "play_style": "solid",
+            "play_size": "medium",
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "show_controls": false,
             "width": "50%",
-            "alignment": "center",
+            "alignment": "start",
             "block_custom_class": "",
             "animations": "inherit"
           }
@@ -161,11 +200,12 @@
       },
       "block_order": [
         "text_Rk3xYH",
-        "image_iUNXQT"
+        "video_xheBrD"
       ],
       "custom_css": [
         ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}",
-        ".m-richtext__description {margin-top: 24px; font-size: 24px; line-height: 1.4;}"
+        ".m-richtext__description {margin-top: 24px; font-size: 18px; line-height: 1.4;}",
+        "@media only screen and (max-width: 600px) {.m-richtext__description {margin-top: 24px; font-size: 15px; line-height: 1.4; }}"
       ],
       "settings": {
         "heading": "",
@@ -173,7 +213,7 @@
         "subheading": "",
         "description": "",
         "header_alignment": "center",
-        "container": "container-fluid",
+        "container": "container",
         "color_scheme": "default",
         "gap": 30,
         "use_scroll_mobile": false,
@@ -186,12 +226,20 @@
     "collection_list_Frfccn": {
       "type": "collection-list",
       "blocks": {
+        "collection_block_6xWCGi": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "chai-tea",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/1_16.jpg"
+          }
+        },
         "collection_block_xndacy": {
           "type": "collection_block",
           "settings": {
             "collection": "black-tea",
             "title": "",
-            "item_image": "shopify:\/\/shop_images\/black_tea.png"
+            "item_image": "shopify:\/\/shop_images\/2_20_2.jpg"
           }
         },
         "collection_block_gyWxEX": {
@@ -199,34 +247,27 @@
           "settings": {
             "collection": "green-tea",
             "title": "",
-            "item_image": "shopify:\/\/shop_images\/green_tea.png"
+            "item_image": "shopify:\/\/shop_images\/3_1.jpg"
           }
         },
         "collection_block_bGcGez": {
           "type": "collection_block",
+          "disabled": true,
           "settings": {
             "collection": "fruit-tea",
             "title": "",
-            "item_image": "shopify:\/\/shop_images\/fruit_tea_9e25b886-f53c-41c9-8d58-01b31ce651ce.png"
-          }
-        },
-        "collection_block_6xWCGi": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "chai-tea",
-            "title": "",
-            "item_image": "shopify:\/\/shop_images\/chai_tea_09893fe5-8621-4aac-84ab-25de3233ed38.png"
+            "item_image": "shopify:\/\/shop_images\/4_9.jpg"
           }
         }
       },
       "block_order": [
+        "collection_block_6xWCGi",
         "collection_block_xndacy",
         "collection_block_gyWxEX",
-        "collection_block_bGcGez",
-        "collection_block_6xWCGi"
+        "collection_block_bGcGez"
       ],
       "custom_css": [
-        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}",
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 200px 200px 20px 20px;}",
         ".m-collection-card__info {display: none !important;}"
       ],
       "settings": {
@@ -236,7 +277,7 @@
         "description": "",
         "header_alignment": "center",
         "color_scheme": "",
-        "container": "container-fluid",
+        "container": "container",
         "layout": "grid",
         "expanded": true,
         "card_style": "standard",
@@ -245,7 +286,7 @@
         "show_product_count": false,
         "count_inline_title": false,
         "image_rounded": false,
-        "items_per_row": 4,
+        "items_per_row": 3,
         "item_gap": 30,
         "enable_slider": false,
         "show_pagination": false,
@@ -274,7 +315,7 @@
         "description": "",
         "header_alignment": "center",
         "color_scheme": "default",
-        "container": "container-fluid",
+        "container": "container",
         "collection": "tea-bags",
         "enable_flashsale": false,
         "show_countdown": false,
@@ -289,7 +330,7 @@
         "show_pagination": true,
         "show_navigation": true,
         "button_type": "link",
-        "button_text": "Shop more",
+        "button_text": "",
         "button_style": "m-button--primary",
         "button_size": "",
         "infinite_load": false,
@@ -305,22 +346,6 @@
     },
     "custom_content_mhGB3d": {
       "type": "custom-content",
-      "blocks": {
-        "image_yiNnLe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Web-1.jpg",
-            "link": "",
-            "width": "100%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "image_yiNnLe"
-      ],
       "custom_css": [
         ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
       ],
@@ -340,6 +365,60 @@
         "custom_class": ""
       }
     },
+    "new_featured_product_abeeGz": {
+      "type": "new-featured-product",
+      "blocks": {
+        "title_NgiQit": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_twjwmH": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "description_n9UE3w": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker_36CUc8": {
+          "type": "variant_picker",
+          "settings": {}
+        },
+        "buy_buttons_mJbWcd": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "title_NgiQit",
+        "price_twjwmH",
+        "description_n9UE3w",
+        "variant_picker_36CUc8",
+        "buy_buttons_mJbWcd"
+      ],
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "featured_product": "achari-chai-black-tea-with-spice-1",
+        "column_gap": 100,
+        "column_gap_mobile": 30,
+        "image_placement": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "16225316461d1cff80": {
       "type": "collection-list",
       "blocks": {
@@ -348,7 +427,7 @@
           "settings": {
             "collection": "premium-assam-tea",
             "title": "",
-            "item_image": "shopify:\/\/shop_images\/assam_f9524b7d-fbf0-4d54-b89a-69a7cf0d1ad0.png"
+            "item_image": "shopify:\/\/shop_images\/1.1.jpg"
           }
         },
         "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
@@ -356,7 +435,7 @@
           "settings": {
             "collection": "premium-darjeeling-tea",
             "title": "",
-            "item_image": "shopify:\/\/shop_images\/darjelling_3d046073-6f68-49df-90d7-83c8a067e968.png"
+            "item_image": "shopify:\/\/shop_images\/2.1_1.jpg"
           }
         },
         "16225316461d1cff80-1": {
@@ -364,7 +443,7 @@
           "settings": {
             "collection": "premium-munnar-tea",
             "title": "",
-            "item_image": "shopify:\/\/shop_images\/munnar_4d7348cb-a440-4b7b-b0ac-db3abcbfd7f0.png"
+            "item_image": "shopify:\/\/shop_images\/3.1_1.jpg"
           }
         }
       },
@@ -374,7 +453,7 @@
         "16225316461d1cff80-1"
       ],
       "custom_css": [
-        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}",
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 200px 200px 20px 20px;}",
         ".m-collection-card__info {display: none !important;}"
       ],
       "settings": {
@@ -412,14 +491,15 @@
     },
     "video_hero_eWXxJf": {
       "type": "video-hero",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
-        "container": "container-fluid",
+        "container": "w-full",
         "hero_size": "adapt",
         "video_ratio": "16\/9",
         "show_overlay": false,
         "video_type": "external",
-        "video_url": "https:\/\/youtu.be\/ahNekOvOW5w",
+        "video_url": "https:\/\/youtu.be\/3t6K9diAbLI",
         "content_in_container": false,
         "content_position": "center middle",
         "text_alignment": "center",
@@ -698,6 +778,7 @@
     "collection_list_Frfccn",
     "featured_collection_kqdGX9",
     "custom_content_mhGB3d",
+    "new_featured_product_abeeGz",
     "16225316461d1cff80",
     "video_hero_eWXxJf",
     "featured_collection_gj3Wxm",
