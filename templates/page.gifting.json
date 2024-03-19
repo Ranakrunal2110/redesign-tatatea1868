@@ -381,6 +381,72 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_KYwcxC": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/1868_GiftBox_BuyBoxImage_Box02_LifestyleImage_v001_2_4e040d89-a133-475f-afdb-de9fab1c2f0d.webp",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h1>Signature Tea Blends<\/h1>",
+        "sub_title": "",
+        "text": "<p>Experience the rich and exotic flavors of Indian tea with <strong>Signature Tea Blends<\/strong> gift box - the ultimate indulgence for tea enthusiasts. Featuring three unique blends, each tea is a tantalizing journey for your taste buds. First, the premium <strong>Saunf Masala Chai<\/strong>, with its bold and invigorating aroma. The second tea in this set is the <strong>Dessert Chai<\/strong>, a heavenly blend of black tea, cardamom, and natural kesar pista flavor, that will satisfy your sweet tooth. And finally, the classic<strong> Masala Chai<\/strong> from 1868 by Tata Tea, a rich blend that takes you back in time. Packaged in beautifully designed tins, these teas will remain aromatic and flavorful for months to come.<\/p><p><\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/signature-tea-blends-gift-box",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_h6yydQ": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".m-image-loaded {background-color: #0000; border: 1px solid #ffffff00; border-radius: 20px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/1868_GiftBox_BuyBoxImage_Box03_LifestyleImage_v001_2_f343439a-e876-418d-88bd-7590742842da.webp",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "<h1>Assorted Teas Collection<\/h1>",
+        "sub_title": "",
+        "text": "<p>Introducing the <strong>Assorted Teas Collection<\/strong> gift box that promises a sensory journey through the world of tea. The collection features three exquisite blends, each with a unique flavor profile. The premium <strong>Assam Orthodox<\/strong> Tea is the first on the list, with its delectable and malty flavor, complemented by a subtle sweetness. The second is the <strong>Caramel Green Chilli<\/strong> Tea, an intriguing and delectable fusion of caramel sweetness and spicy green chilli that will leave your taste buds craving for more. The third and final tea is the <strong>Green With Rose<\/strong>, a sumptuous blend infused with the delicate aroma of rose petals, offering an enchanting experience with every sip. Presented in a beautifully designed gift box, each tea is carefully packaged to retain its flavor. Give the gift of luxury and indulgence with this <strong>Assorted Teas Collection<\/strong> gift box.<\/p><p><\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/assorted-tea-gift-box",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "icon-box": {
       "type": "icon-box",
       "blocks": {
@@ -479,6 +545,8 @@
     "custom_content_mJxJiP",
     "image_with_text_UBJ9gf",
     "image_with_text_ii6F8j",
+    "image_with_text_KYwcxC",
+    "image_with_text_h6yydQ",
     "icon-box"
   ]
 }

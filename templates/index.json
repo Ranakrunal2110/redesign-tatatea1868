@@ -11,10 +11,9 @@
       "blocks": {
         "1621243260e1af0c20-0": {
           "type": "slider_item",
-          "disabled": true,
           "settings": {
-            "background": "shopify:\/\/shop_images\/2.1.png",
-            "mb_background": "shopify:\/\/shop_images\/2.3.png",
+            "background": "shopify:\/\/shop_images\/1_10.png",
+            "mb_background": "shopify:\/\/shop_images\/2_8.png",
             "content_in_container": false,
             "content_position": "left middle",
             "text_alignment": "left",
@@ -23,9 +22,9 @@
             "subheading": "",
             "title": "",
             "description": "",
-            "image_link": "shopify:\/\/collections\/all",
+            "image_link": "shopify:\/\/collections\/tea-bags",
             "button_text": "",
-            "button_link": "https:\/\/www.tatatea1868.com\/collections\/all",
+            "button_link": "https:\/\/www.tatatea1868.com\/collections\/tea-bags",
             "button_style": "sf__btn-secondary",
             "button_size": "",
             "show_footer": false,
