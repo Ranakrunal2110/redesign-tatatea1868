@@ -31,10 +31,10 @@
   endunless
 %}
 {% comment %} Fallback for case not show block price, buy buttons {% endcomment %}
-<input type="hidden" name="id" value="{{ variant_id }}" data-selected-variant="{{ selected_variant_id }}" disabled>
+<input type="hidden" name="id" value="{{ variant_id }}" data-selected-variant="{{ selected_variant_id }}" disabled {{ product.handle }}>
 {% comment %} End comment {% endcomment %}
 {%- for block in section.blocks -%}
-  <div class="main-product__block main-product__block-{{ block.type }}" {{ block.shopify_attributes }}>
+  <div class="main-product__block {%  if product.handle contains 'assorted-tea-gift-box' or product.handle contains 'signature-tea-blends-gift-box' or product.handle contains 'gourmet-chai-collection-gift-box' or product.handle contains 'tea-lovers-bliss-1' %} hide-collapsible{% endif %} main-product__block-{{ block.type }}" {{ block.shopify_attributes }}>
     {%- case block.type -%}
       {%- when '@app' -%}
         {% render block %}

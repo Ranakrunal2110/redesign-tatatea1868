@@ -50,7 +50,8 @@
   <div class="m-price__sale">
     <span class="m:visually-hidden m:visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
     <span class="m-price-item m-price-item--sale m-price-item--last {{ price_text_size }}">
-      {{ money_price }}
+      {%- assign offered_price = product.price | times : 5 | divided_by : 100 -%}
+      {{ product.price | minus : offered_price | money }}
     </span>
     {%- unless target.price_varies == false and target.compare_at_price_varies %}
       <span class="m:visually-hidden m:visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>

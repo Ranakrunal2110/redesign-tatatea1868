@@ -92,7 +92,26 @@
           </div>
         {% endunless %}
       </div>
-      <div class="m:column md:m:w-1/2 m:w-full m-main-product--info{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %}">
+      <div class="m:column md:m:w-1/2 m:w-full m-main-product--info{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %} product-info-wrapper">
+        <select name="id" class="product-form  m-product-option--dropdown-select{% if product.has_only_default_variant %} m:hidden{% endif %}">
+          <option value="" disabled>Select option</option>
+          {% for variant in product.variants %}
+            {% assign selected = false %}
+            {%- if variant.id == product.selected_or_first_available_variant.id -%}
+              {% assign selected = true %}
+            {%- endif -%}
+            <option
+              value="{{ variant.id }}"
+              {% if selected %}
+                selected="true"
+              {% endif %}
+              data-variant-price="{{ variant.price}}"
+              {% if variant.compare_at_price %}data-variant-compare-price="{{ variant.compare_at_price}}"{% endif %}
+            >
+              {{ variant.title }} - {{ variant.price | money }}
+            </option>
+          {% endfor %}
+        </select>
         {% if section_onboarding %}
           {{ onboarding }}
         {% else %}

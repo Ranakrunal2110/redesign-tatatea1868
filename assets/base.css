@@ -417,7 +417,7 @@ align-content: start;
     text-overflow: ellipsis;
     min-height: 50px;
 }
-.template-product m-quantity-input{
+.template-product .m-main-product--info m-quantity-input{
   opacity: 0.5;
   pointer-events: none;
   cursor: not-allowed;
@@ -454,4 +454,8 @@ align-content: start;
   display: block;
   width: 100%;
   text-align: center;
+}
+.hide-collapsible.main-product__block-collapsible_tab,
+.template-product.gifting-product .ingredients-wrapper{
+  display: none !important;
 }

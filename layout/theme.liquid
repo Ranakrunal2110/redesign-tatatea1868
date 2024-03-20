@@ -19,6 +19,9 @@
   if template.suffix == 'about-us'
     assign body_classes = body_classes | append: ' sf__page-about'
   endif
+  if product.handle contains 'assorted-tea-gift-box' or product.handle contains 'signature-tea-blends-gift-box' or product.handle contains 'gourmet-chai-collection-gift-box' or product.handle contains 'tea-lovers-bliss-1'
+  assign body_classes = body_classes | append: ' gifting-product'
+  endif
 %}
 <!doctype html>
 <html

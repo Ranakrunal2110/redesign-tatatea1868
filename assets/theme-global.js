@@ -2,19 +2,32 @@ MinimogTheme.pubSubEvents={cartError:"cart-error",cartUpdate:"cart-update",openC
 
 // Custom JS
 $(document).on(`change`,`[name="product-variant-option"]`, function(){
-  var currentVariant = $(this).attr(`data-value`);
-  var currentVariantPrice = parseInt($(`.product-form option:selected`).attr(`data-variant-price`));
-  var currentPrice = (currentVariantPrice * currentVariant) / 100;
-  var finalPrice = currentPrice.toFixed(2);
-  $(`m-quantity-input [type="number"]`).val(currentVariant);
-  if($(`.product-form option:selected`).attr(`data-variant-compare-price`) != undefined ){
-    var currentVariantComparePrice = parseInt($(`.product-form option:selected`).attr(`data-variant-compare-price`));
-    var currentComparePrice = (currentVariantComparePrice * currentVariant) / 100;
-    var compareAtPrice = currentComparePrice.toFixed(2);
-    $(`.m-price-item--sale`).text(numberWithCommas(finalPrice));
-    $(`.m-price-item--regular`).text(numberWithCommas(compareAtPrice));
-  } else {
-    $(`.m-price-item--regular`).text(numberWithCommas(finalPrice))
+  if($(`.product-info-wrapper`).length > 0){
+    var currentVariant = parseInt($(this).attr(`data-value`));
+    var currentVariantPrice = parseInt($(`.product-form option:selected`).attr(`data-variant-price`));
+    var offered_price;
+    var currentPrice = (currentVariantPrice * currentVariant);
+    if(currentVariant == "1"){
+      offered_price = (currentPrice * 5 ) / 100;
+    }
+    if(currentVariant == "2"){
+      offered_price = (currentPrice * 10 ) / 100;
+    }
+    if(currentVariant == "3"){
+      offered_price = (currentPrice * 15 ) / 100;
+    } 
+    var selling_price = ((currentVariantPrice * currentVariant) - offered_price ) / 100;    
+    var finalPrice = selling_price.toFixed(2);    
+    $(`m-quantity-input [type="number"]`).val(currentVariant);
+    if($(`.product-form option:selected`).attr(`data-variant-compare-price`) != undefined ){
+      var currentVariantComparePrice = parseInt($(`.product-form option:selected`).attr(`data-variant-compare-price`));
+      var currentComparePrice = (currentVariantComparePrice * currentVariant) / 100;
+      var compareAtPrice = currentComparePrice.toFixed(2);
+      $(this).closest(`.m-main-product--info`).find(`.m-price-item--sale`).text(numberWithCommas(finalPrice));
+      $(this).closest(`.m-main-product--info`).find(`.m-price-item--regular`).text(numberWithCommas(compareAtPrice));
+    } else {
+      $(this).closest(`.m-main-product--info`).find(`.m-price-item--regular`).text(numberWithCommas(finalPrice))
+    }
   }
 })
 
